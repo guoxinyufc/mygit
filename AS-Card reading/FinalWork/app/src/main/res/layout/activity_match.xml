@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatchActivity"
+    android:background="@color/cyan"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/tm_show"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/moveUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="上一页"
+            android:textSize="25dp"
+            android:background="@drawable/general_button_shape"/>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="目录"
+            android:textSize="25dp"
+            android:background="@drawable/general_button_shape"/>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/moveDown"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="下一页"
+            android:textSize="25dp"
+            android:background="@drawable/general_button_shape"/>
+    </LinearLayout>
+
+</LinearLayout>

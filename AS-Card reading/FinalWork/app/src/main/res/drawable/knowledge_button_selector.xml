@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/darkgreen" /><!--按钮按下时颜色-->
+    <item
+        android:drawable="@color/green"/><!--默认状态下颜色-->
+</selector>
